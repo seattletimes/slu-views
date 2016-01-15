@@ -9,6 +9,25 @@ body {
   width: 100%;
 }
 
+.outer {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid @df-border-gray;
+}
+
+.featured-location {
+  font-weight: bold;
+  color: @df-middle-gray;
+  font-size: 16px;
+}
+
+.featured-source {
+  font-style: italic;
+  padding-top: 2px;
+  font-size: 12px;
+  color: @df-middle-gray;
+}
+
 .notes {
   .display-flex();
 
@@ -17,23 +36,47 @@ body {
   }
 }
 
-.stats, .source {
-  font-size: 16px;
-}
-.stats {
-  .flex(2);
-}
 .location {
-  padding-bottom: 4px;
+  padding: 4px 15px 10px;
   font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  font-family: @df-serif;
+  color: @df-middle-gray;
+  .flex(1);
+
+  @media @tablet {
+    font-size: 20px;
+  }
 }
 
 .source {
   .flex(1);
   font-style: italic;
-  text-align: right;
+  font-family: @df-sans;
   color: @df-middle-gray;
   font-size: 12px;
+  font-weight: normal;
+  padding-top: 8px;
+}
+
+.info {
+  .display-flex();
+  padding-top: 10px;
+
+  @media @mobile {
+    display: block;
+  }
+}
+
+.locator {
+  max-width: 280px;
+  margin: auto;
+  .flex(1);
+
+  @media @mobile {
+    padding-top: 20px;
+  }
 }
 
 .image-slider {

@@ -1,6 +1,6 @@
-number,location
-1,"Republican Street & Boren Avenue North"
-2,"Fairview Avenue North & Republican Street"
-3,"Harrison Street & Boren Avenue North"
-4,"Mercer Street & Boren Avenue North"
-5,"Republican Street & Pontius Avenue North"
+number,first,second
+1,"Republican Street","and Boren Avenue N"
+2,"Fairview Avenue N","and Republican Street"
+3,"Harrison Street and","Boren Avenue N"
+4,"Mercer Street and","Boren Avenue N"
+5,"Republican Street and","Pontius Avenue N"
